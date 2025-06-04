@@ -1,0 +1,9 @@
+.contextsContainer {
+  display: flex;
+}
+.banner {
+  flex: 0.2;
+}
+.contents {
+  flex: 1;
+}

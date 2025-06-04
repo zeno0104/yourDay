@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signinForm {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 30px;
+}
+.signIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pwCheckOne {
+  color: green;
+}
+.pwCheckTwo {
+  color: red;
+}

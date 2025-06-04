@@ -1,0 +1,59 @@
+.write {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.contentsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.todaySatisfaction {
+  border: 1px solid #000000;
+  padding: 20px;
+  border-radius: 20px;
+}
+.satisfactionText {
+  text-align: center;
+}
+.satisfactionType {
+  display: grid;
+  width: 300px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.emotionItem {
+  padding: 8px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.emotionItem:hover {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  background-color: #4f9cf9;
+  color: white;
+  font-weight: bold;
+}
+.textArea {
+  resize: none;
+  max-height: 130px;
+  max-width: 500px;
+}
+.confirmBtnText {
+  padding: 10px 100px;
+  border-radius: 20px;
+}

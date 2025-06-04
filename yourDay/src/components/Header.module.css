@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-shadow: 1px 1px 20px;
+}
+.login {
+  display: flex;
+  gap: 10px;
+}
+.logo {
+  width: 80px;
+}
