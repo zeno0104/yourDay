@@ -27,7 +27,7 @@ function SignIn() {
         .then((res) => {
           console.log("서버 응답: ", res.data);
           alert("회원가입이 완료되었습니다.");
-          navigate("/signin");
+          navigate("/signup");
         })
         .catch((err) => {
           console.log("회원가입 실패: ", err);

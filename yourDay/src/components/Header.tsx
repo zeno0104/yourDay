@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import { useState } from "react";
 
 function Header() {
-  const [status, setStatus] = useState(false);
+  const [status, setStatus] = useState(true);
   return (
     <div className={styles.container}>
       <div className={styles.logo}>

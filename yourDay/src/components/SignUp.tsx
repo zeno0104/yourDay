@@ -43,7 +43,7 @@ function SignUp() {
         </div>
         <div className={styles.inputRow}>
           <label htmlFor="pwInput">비밀번호</label>
-          <input type="text" value={pw} onChange={onPwHandler} />
+          <input type="password" value={pw} onChange={onPwHandler} />
         </div>
         <div className={styles.confirmBtn}>
           <button onClick={loginHandler}>로그인</button>

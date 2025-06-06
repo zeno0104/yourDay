@@ -58,7 +58,6 @@ function Contents() {
                   <div>{data.satisfaction}</div>
                   <div>{data.emotion}</div>
                 </div>
-
                 <div>{data.diary}</div>
               </div>
             </div>
